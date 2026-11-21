@@ -47,6 +47,10 @@
     {
       "decision": "Match the dark blue background surfaces to the supplied swatch #0F1D2B.",
       "reason": "The user confirmed this exact darker blue tone as the preferred color reference."
+    },
+    {
+      "decision": "Keep the home process cards equal in height across grid rows and stretch their reveal wrappers with the grid.",
+      "reason": "Matching row heights keeps numbers, headings, and card edges aligned across desktop and smaller responsive layouts."
     }
   ]
 }

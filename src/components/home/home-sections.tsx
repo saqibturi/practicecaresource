@@ -177,11 +177,10 @@ function ProcessSection() {
             </a>
           </div>
         </ScrollReveal>
-        <ol id="process-steps" className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <ol id="process-steps" className="grid auto-rows-fr gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {processSteps.map((step, index) => (
-            <li key={step.number} className="relative">
-              <ScrollReveal delay={index * 0.04}>
-                <article className="h-full rounded-2xl border border-black bg-[#eaf4ff] p-5 shadow-card transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-black hover:shadow-card-hover motion-reduce:transition-none sm:p-6">
+            <li key={step.number} className="relative h-full">\n              <ScrollReveal delay={index * 0.04} className="h-full" innerClassName="h-full">
+                <article className="flex h-full flex-col rounded-2xl border border-black bg-[#eaf4ff] p-5 shadow-card transition-[transform,border-color,box-shadow] duration-300 hover:-translate-y-1 hover:border-black hover:shadow-card-hover motion-reduce:transition-none sm:p-6">
                   <p className="font-display text-4xl font-semibold leading-none text-brand-accent-ink/70">{step.number}</p>
                   <h3 className="mt-6 font-display text-xl font-semibold leading-tight text-brand-dark">{step.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-brand-slate">{step.description}</p>
