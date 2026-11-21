@@ -11,8 +11,8 @@
   --cs-background-wash: 248 251 252;
   --cs-dark: 22 19 17;
   --cs-dark-soft: 39 34 30;
-  --cs-lapis: 38 97 154;
-  --cs-lapis-hover: 31 80 127;
+  --cs-lapis: 21 44 60;
+  --cs-lapis-hover: 16 34 46;
   --cs-slate: 84 104 119;
   --cs-slate-light: 110 126 138;
   --cs-border: 220 230 232;
@@ -158,3 +158,4 @@ img {
     will-change: auto;
   }
 }
+

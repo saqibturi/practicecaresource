@@ -6,7 +6,7 @@ import { footerContact, footerQuickLinks, services } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="bg-brand-lapis-hover text-brand-background">
+    <footer className="bg-brand-lapis text-brand-background">
       <Container className="pb-5 pt-5 sm:pb-6 sm:pt-6 lg:pb-7 lg:pt-7">
         <div className="grid gap-8 border-b border-brand-background/15 pb-6 md:grid-cols-[1.3fr_0.7fr_0.9fr_1fr] md:gap-8 lg:pb-8">
           <div className="max-w-sm">
@@ -102,4 +102,5 @@ export function Footer() {
     </footer>
   );
 }
+
 

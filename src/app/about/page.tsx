@@ -320,10 +320,10 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <section className="bg-brand-lapis py-10 text-brand-background sm:py-12 lg:py-16">
+      <section className="py-10 sm:py-12 lg:py-16">
         <Container>
           <ScrollReveal>
-            <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex flex-col gap-8 rounded-[2rem] bg-brand-lapis px-6 py-8 text-brand-background shadow-card sm:px-10 sm:py-10 lg:flex-row lg:items-center lg:justify-between lg:px-14 lg:py-12">
               <div className="max-w-3xl">
                 <p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-brand-accent">
                   The source of care for your practice
@@ -340,7 +340,7 @@ export default function AboutPage() {
                 href="/contact"
                 size="lg"
                 showArrow
-                className="shrink-0 self-start"
+                className="shrink-0 self-center lg:self-center"
               >
                 Book a Free Audit
               </Button>
@@ -351,4 +351,5 @@ export default function AboutPage() {
     </main>
   );
 }
+
 

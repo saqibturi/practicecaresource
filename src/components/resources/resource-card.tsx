@@ -27,7 +27,7 @@ export function ResourceCard({ article, featured = false }: ResourceCardProps) {
           className="grid h-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-accent"
           aria-label={`Read featured article: ${article.title}`}
         >
-          <div className="relative min-h-56 overflow-hidden bg-brand-lapis-hover sm:min-h-72 lg:min-h-[28rem]">
+          <div className="relative min-h-56 overflow-hidden bg-brand-lapis sm:min-h-72 lg:min-h-[28rem]">
             <Image
               src={article.coverImage}
               alt={article.coverAlt}
@@ -101,4 +101,5 @@ export function ResourceCard({ article, featured = false }: ResourceCardProps) {
     </article>
   );
 }
+
 

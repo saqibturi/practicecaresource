@@ -5,7 +5,7 @@
     "background": "#F5EDE0",
     "dark": "#161311",
     "slate": "#546877",
-    "lapis": "#26619A"
+    "lapis": "#152C3C"
   },
   "decisions": [
     {
@@ -39,6 +39,11 @@
     {
       "decision": "Use a deeper lapis shade for the footer and reduce its vertical padding, with the copyright as the sole item beneath the divider.",
       "reason": "The footer retains the lapis identity while taking less vertical space and ending cleanly after the service links."
+    },
+    {
+      "decision": "Use deep slate blue #152C3C for the site's dark blue background surfaces, and present the About closing call to action as an inset rounded banner with the audit button vertically centered.",
+      "reason": "The darker requested shade gives the former black replacements more depth, while the rounded banner follows the supplied reference and keeps its action balanced with the copy."
     }
   ]
 }
+
