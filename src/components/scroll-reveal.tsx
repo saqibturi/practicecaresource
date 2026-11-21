@@ -7,14 +7,18 @@ type ScrollRevealProps = HTMLAttributes<HTMLDivElement> & {
   children: ReactNode;
   delay?: number;
   stagger?: boolean;
-  amount?: number;\n  innerClassName?: string;\n};
+  amount?: number;
+  innerClassName?: string;
+};
 
 export function ScrollReveal({
   children,
   className = "",
   delay = 0,
   stagger = false,
-  amount = 0.18,\n  innerClassName = "",\n  ...props
+  amount = 0.18,
+  innerClassName = "",
+  ...props
 }: ScrollRevealProps) {
   const reducedMotion = useReducedMotion();
   const hidden = reducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 };
@@ -43,7 +47,9 @@ export function ScrollReveal({
 
   return (
     <div className={className} {...props}>
-      <motion.div\n        className={innerClassName}\n        initial={reducedMotion ? false : "hidden"}
+      <motion.div
+        className={innerClassName}
+        initial={reducedMotion ? false : "hidden"}
         whileInView="visible"
         viewport={{ once: true, amount }}
         variants={{ hidden, visible }}
