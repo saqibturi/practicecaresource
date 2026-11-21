@@ -6,7 +6,7 @@ import { footerContact, footerQuickLinks, services } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="bg-brand-dark text-brand-background">
+    <footer className="bg-brand-lapis text-brand-background">
       <Container className="py-10 sm:py-12 lg:py-14">
         <div className="grid gap-12 border-b border-brand-background/15 pb-12 md:grid-cols-[1.3fr_0.7fr_0.9fr_1fr] md:gap-8 lg:pb-16">
           <div className="max-w-sm">

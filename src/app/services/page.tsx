@@ -96,7 +96,7 @@ export default function ServicesPage() {
         </Container>
       </section>
 
-      <section className="bg-brand-dark py-10 text-brand-background sm:py-12 lg:py-16">
+      <section className="bg-brand-lapis py-10 text-brand-background sm:py-12 lg:py-16">
         <Container className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center lg:gap-16">
           <ScrollReveal>
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-brand-accent">

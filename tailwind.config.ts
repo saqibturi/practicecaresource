@@ -13,6 +13,8 @@ const config = {
           "background-wash": "rgb(var(--cs-background-wash) / <alpha-value>)",
           dark: "rgb(var(--cs-dark) / <alpha-value>)",
           "dark-soft": "rgb(var(--cs-dark-soft) / <alpha-value>)",
+          lapis: "rgb(var(--cs-lapis) / <alpha-value>)",
+          "lapis-hover": "rgb(var(--cs-lapis-hover) / <alpha-value>)",
           slate: "rgb(var(--cs-slate) / <alpha-value>)",
           "slate-light": "rgb(var(--cs-slate-light) / <alpha-value>)",
           border: "rgb(var(--cs-border) / <alpha-value>)",

@@ -132,7 +132,7 @@ export default function AboutPage() {
       <section id="our-story" className="py-10 sm:py-12 lg:py-16">
         <Container className="grid items-center gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:gap-16">
           <ScrollReveal className="mx-auto w-full max-w-sm lg:max-w-none">
-            <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-brand-dark p-6 text-brand-background shadow-card sm:p-8">
+            <div className="relative overflow-hidden rounded-3xl border border-brand-border bg-brand-lapis p-6 text-brand-background shadow-card sm:p-8">
               <div className="absolute -right-12 -top-12 size-48 rounded-full border border-brand-accent/35" aria-hidden="true" />
               <div className="relative">
                 <p className="text-sm font-bold uppercase tracking-[0.14em] text-brand-accent">Practice support</p>
@@ -198,7 +198,7 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <section className="bg-brand-dark py-10 text-brand-background sm:py-12 lg:py-16">
+      <section className="bg-brand-lapis py-10 text-brand-background sm:py-12 lg:py-16">
         <Container>
           <ScrollReveal>
             <div className="max-w-3xl">
@@ -320,7 +320,7 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <section className="bg-brand-dark py-10 text-brand-background sm:py-12 lg:py-16">
+      <section className="bg-brand-lapis py-10 text-brand-background sm:py-12 lg:py-16">
         <Container>
           <ScrollReveal>
             <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">

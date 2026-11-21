@@ -193,7 +193,7 @@ export default function ContactPage() {
         </Container>
       </section>
 
-      <section className="bg-brand-dark py-10 text-brand-background sm:py-12 lg:py-16">
+      <section className="bg-brand-lapis py-10 text-brand-background sm:py-12 lg:py-16">
         <Container>
           <ScrollReveal>
             <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">

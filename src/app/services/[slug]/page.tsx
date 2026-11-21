@@ -138,7 +138,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             {service.howWeWork.map((step, index) => (
               <ScrollReveal key={step.title} delay={index * 0.04}>
                 <article className="h-full rounded-2xl border border-brand-border bg-brand-background p-5 transition-[transform,box-shadow,border-color] duration-200 hover:-translate-y-1 hover:border-brand-accent/50 hover:shadow-card sm:p-6">
-                  <span className="grid size-10 place-items-center rounded-xl bg-brand-dark text-sm font-bold text-brand-background" aria-hidden="true">
+                  <span className="grid size-10 place-items-center rounded-xl bg-brand-lapis text-sm font-bold text-brand-background" aria-hidden="true">
                     0{index + 1}
                   </span>
                   <h3 className="mt-5 font-display text-2xl font-semibold leading-tight text-brand-dark">{step.title}</h3>
@@ -204,7 +204,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       <section className="py-10 sm:py-12 lg:py-16">
         <Container>
           <ScrollReveal>
-            <div className="relative overflow-hidden rounded-3xl bg-brand-dark px-7 py-8 text-brand-background sm:px-10 sm:py-10 lg:px-16 lg:py-12">
+            <div className="relative overflow-hidden rounded-3xl bg-brand-lapis px-7 py-8 text-brand-background sm:px-10 sm:py-10 lg:px-16 lg:py-12">
               <div className="pointer-events-none absolute -right-10 -top-20 size-64 rounded-full border border-brand-accent/35" aria-hidden="true" />
               <div className="relative max-w-3xl">
                 <p className="text-sm font-bold uppercase tracking-[0.16em] text-brand-accent">The source of care for your practice</p>

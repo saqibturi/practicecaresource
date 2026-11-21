@@ -17,7 +17,7 @@ function BillingDashboard() {
   const tasks = ["Claim preparation", "Payment posting", "Denial follow-up"];
 
   return (
-    <div className="relative z-20 mx-auto w-[91%] max-w-[34rem] -rotate-2 rounded-t-2xl border border-brand-background/30 bg-brand-dark p-2 shadow-card sm:w-[88%] sm:p-3">
+    <div className="relative z-20 mx-auto w-[91%] max-w-[34rem] -rotate-2 rounded-t-2xl border border-brand-background/30 bg-brand-lapis p-2 shadow-card sm:w-[88%] sm:p-3">
       <div className="overflow-hidden rounded-t-xl border border-brand-border bg-brand-background">
         <div className="flex items-center justify-between border-b border-brand-border px-3 py-2 sm:px-4 sm:py-3">
           <div className="flex items-center gap-2">
@@ -78,7 +78,7 @@ export function HeroVisual({ heroImage }: HeroVisualProps) {
           initial={reducedMotion ? false : { opacity: 0, scale: 0.94, rotate: 2 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: reducedMotion ? 0 : 0.8, ease: "easeOut" }}
-          className="absolute right-[5%] top-[2%] size-[68%] rounded-[45%_55%_56%_44%/44%_42%_58%_56%] bg-brand-dark"
+          className="absolute right-[5%] top-[2%] size-[68%] rounded-[45%_55%_56%_44%/44%_42%_58%_56%] bg-brand-lapis"
           aria-hidden="true"
         />
         <div className="absolute right-[2%] top-[13%] size-[30%] rounded-full border-[1.1rem] border-brand-accent/80 sm:border-[1.6rem]" aria-hidden="true" />

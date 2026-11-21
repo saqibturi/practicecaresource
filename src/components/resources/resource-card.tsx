@@ -21,13 +21,13 @@ type ResourceCardProps = {
 export function ResourceCard({ article, featured = false }: ResourceCardProps) {
   if (featured) {
     return (
-      <article className="group overflow-hidden rounded-3xl border border-brand-border bg-brand-dark text-brand-background shadow-card transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-card-hover">
+      <article className="group overflow-hidden rounded-3xl border border-brand-border bg-brand-lapis text-brand-background shadow-card transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-card-hover">
         <Link
           href={`/resources/${article.slug}`}
           className="grid h-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-accent"
           aria-label={`Read featured article: ${article.title}`}
         >
-          <div className="relative min-h-56 overflow-hidden bg-brand-dark-soft sm:min-h-72 lg:min-h-[28rem]">
+          <div className="relative min-h-56 overflow-hidden bg-brand-lapis-hover sm:min-h-72 lg:min-h-[28rem]">
             <Image
               src={article.coverImage}
               alt={article.coverAlt}
@@ -35,7 +35,7 @@ export function ResourceCard({ article, featured = false }: ResourceCardProps) {
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-[1.035]"
             />
-            <span className="absolute left-5 top-5 rounded-pill bg-brand-dark/90 px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] text-brand-accent backdrop-blur-sm">
+            <span className="absolute left-5 top-5 rounded-pill bg-brand-lapis/90 px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] text-brand-accent backdrop-blur-sm">
               Featured article
             </span>
           </div>

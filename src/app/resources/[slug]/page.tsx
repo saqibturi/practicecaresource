@@ -150,7 +150,7 @@ function ArticleContent({ article }: { article: ResourceArticle }) {
 function AuthorBox() {
   return (
     <aside className="mt-8 flex flex-col gap-4 rounded-2xl border border-brand-border bg-brand-background-wash/25 p-5 sm:flex-row sm:items-center sm:p-6">
-      <div className="grid size-14 shrink-0 place-items-center rounded-full bg-brand-dark font-display text-xl font-semibold text-brand-accent" aria-hidden="true">IH</div>
+      <div className="grid size-14 shrink-0 place-items-center rounded-full bg-brand-lapis font-display text-xl font-semibold text-brand-accent" aria-hidden="true">IH</div>
       <div>
         <p className="text-xs font-bold uppercase tracking-[0.13em] text-brand-accent-ink">About the author</p>
         <h2 className="mt-1 font-display text-2xl font-semibold text-brand-dark">Irtiza Hassan</h2>
@@ -268,7 +268,7 @@ export default async function ResourceArticlePage({ params }: ArticlePageProps) 
       <section className="py-8 sm:py-10 lg:py-12">
         <Container>
           <ScrollReveal>
-            <div className="relative isolate overflow-hidden rounded-3xl bg-brand-dark px-6 py-10 text-brand-background sm:px-10 sm:py-14 lg:px-16">
+            <div className="relative isolate overflow-hidden rounded-3xl bg-brand-lapis px-6 py-10 text-brand-background sm:px-10 sm:py-14 lg:px-16">
               <div className="pointer-events-none absolute -right-12 -top-20 -z-10 size-64 rounded-full border-[2.5rem] border-brand-accent/15" aria-hidden="true" />
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-brand-accent">The source of care for your practice</p>
               <h2 className="mt-3 max-w-3xl text-balance font-display text-4xl font-semibold leading-[1.02] text-brand-background sm:text-5xl">Want to talk through your practice workflow?</h2>

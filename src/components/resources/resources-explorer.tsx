@@ -61,7 +61,7 @@ export function ResourcesExplorer({ articles, categories, featuredSlug }: Resour
                   className={[
                     "min-h-10 rounded-pill border px-4 text-xs font-bold transition-colors sm:text-sm",
                     selected
-                      ? "border-brand-dark bg-brand-dark text-brand-background"
+                      ? "border-brand-lapis bg-brand-lapis text-brand-background"
                       : "border-brand-border bg-brand-background text-brand-dark hover:border-brand-accent-ink hover:bg-brand-background-wash/50",
                   ].join(" ")}
                 >

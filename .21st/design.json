@@ -4,7 +4,8 @@
     "accent": "#FF771C",
     "background": "#F5EDE0",
     "dark": "#161311",
-    "slate": "#546877"
+    "slate": "#546877",
+    "lapis": "#26619A"
   },
   "decisions": [
     {
@@ -30,6 +31,10 @@
     {
       "decision": "Use powder blue #eaf4ff inside the home process cards and behind testimonial author details, while keeping the testimonial quote panels white.",
       "reason": "The light blue fill gives the steps and client names/photos a subtle branded highlight without tinting the review text area."
+    },
+    {
+      "decision": "Replace dark background fills with lapis blue #26619A, using a slightly deeper lapis shade for hover and layered surfaces.",
+      "reason": "This removes black panels across the site while preserving the existing white typography and introducing a consistent branded blue canvas."
     }
   ]
 }
