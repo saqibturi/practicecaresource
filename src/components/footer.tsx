@@ -6,9 +6,9 @@ import { footerContact, footerQuickLinks, services } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="bg-brand-lapis text-brand-background">
-      <Container className="py-10 sm:py-12 lg:py-14">
-        <div className="grid gap-12 border-b border-brand-background/15 pb-12 md:grid-cols-[1.3fr_0.7fr_0.9fr_1fr] md:gap-8 lg:pb-16">
+    <footer className="bg-brand-lapis-hover text-brand-background">
+      <Container className="pb-5 pt-5 sm:pb-6 sm:pt-6 lg:pb-7 lg:pt-7">
+        <div className="grid gap-8 border-b border-brand-background/15 pb-6 md:grid-cols-[1.3fr_0.7fr_0.9fr_1fr] md:gap-8 lg:pb-8">
           <div className="max-w-sm">
             <Link href="/" aria-label="CareSource home" className="inline-block rounded-md">
               <Image
@@ -95,9 +95,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 pt-6 text-sm text-brand-background/65 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-2 pt-4 text-sm text-brand-background/75 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} CareSource. All rights reserved.</p>
-          <p>The source of care for your practice.</p>
         </div>
       </Container>
     </footer>

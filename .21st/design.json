@@ -35,6 +35,10 @@
     {
       "decision": "Replace dark background fills with lapis blue #26619A, using a slightly deeper lapis shade for hover and layered surfaces.",
       "reason": "This removes black panels across the site while preserving the existing white typography and introducing a consistent branded blue canvas."
+    },
+    {
+      "decision": "Use a deeper lapis shade for the footer and reduce its vertical padding, with the copyright as the sole item beneath the divider.",
+      "reason": "The footer retains the lapis identity while taking less vertical space and ending cleanly after the service links."
     }
   ]
 }
