@@ -5,7 +5,7 @@
     "background": "#F5EDE0",
     "dark": "#161311",
     "slate": "#546877",
-    "lapis": "#152C3C"
+    "lapis": "#0F1D2B"
   },
   "decisions": [
     {
@@ -41,9 +41,12 @@
       "reason": "The footer retains the lapis identity while taking less vertical space and ending cleanly after the service links."
     },
     {
-      "decision": "Use deep slate blue #152C3C for the site's dark blue background surfaces, and present the About closing call to action as an inset rounded banner with the audit button vertically centered.",
+      "decision": "Use deep slate blue #0F1D2B for the site's dark blue background surfaces, and present the About closing call to action as an inset rounded banner with the audit button vertically centered.",
       "reason": "The darker requested shade gives the former black replacements more depth, while the rounded banner follows the supplied reference and keeps its action balanced with the copy."
+    },
+    {
+      "decision": "Match the dark blue background surfaces to the supplied swatch #0F1D2B.",
+      "reason": "The user confirmed this exact darker blue tone as the preferred color reference."
     }
   ]
 }
-
